@@ -14,10 +14,10 @@ Our goal in this project is to construct models to predict whether a credit card
 PROBLEM STATEMENT<br>
 To recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase.
 <br>
+
 DATASET<br>
 
-In this project we analyze a dataset of credit card transactions made over a two-day period in September 2013 by European cardholders. The dataset contains 284,807 transactions, of which 492 (0.17%) are fraudulent.
-
+In this project we analyze a dataset of credit card transactions made over a two-day period in September 2013 by European cardholders. The dataset contains 284,807 transactions, of which 492 (0.17%) are fraudulent.<br>
 Each transaction has 30 features, all of which are numerical. The features V1, V2, ..., V28 are the result of a PCA transformation. To protect confidentiality, background information on these features is not available. The Time feature contains the time elapsed since the first transaction, and the Amount feature contains the transaction amount. The response variable, Class, is 1 in the case of fraud, and 0 otherwise.
 <br>
 
@@ -36,18 +36,24 @@ MODEL IMPLEMENTED<br>
 Logistic Regression<br>
 
 WORKFLOW<br>
+
 Preprocessing phase<br>
 Not much preproccesing was needed as the data was already clean but we divided the data set in two classes one fraud and other not fraud.<br>
+
 Visualizations<br>
 Made some data visualizations to reveal patterns and structure in the data.<br>
+
 Training and Testing<br>
 Splitting the dataset in 70 and 30 ratio.<br>
+
 Model making using Logstic regression classifier<br>
+
 Evaluation
 <br>
 For a financial institution dealing with identifying fraud, Sensitivity and F1 - Score might be more important metrics. F1- Score reprsents a more balanced result as it is the harmonic mean between Precision and Recall. Sensitivity is more important in the sense that we are more interested in identifying fraud than than identifying legitimate customers. 
 <br>
 
 RESULT<br>
+
 Sensitivity/Recall for Logistic Regression Model  : 0.57<br>
 F1 Score for Logistic Regression Model  : 0.68<br>
